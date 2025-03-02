@@ -75,6 +75,9 @@ struct ContentView: View {
                             .font(.largeTitle)
                             .foregroundColor(.white)
                     }.padding(.trailing)
+                        .sheet(isPresented: $showexchangeInfo) {
+                            CurrencyExchangeInfo()
+                        }
                 }
             }
         }

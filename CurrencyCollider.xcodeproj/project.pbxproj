@@ -11,6 +11,8 @@
 		C96A119A2C139BB400EF9D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96A11992C139BB400EF9D51 /* ContentView.swift */; };
 		C96A119C2C139BB700EF9D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96A119B2C139BB700EF9D51 /* Assets.xcassets */; };
 		C96A119F2C139BB700EF9D51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96A119E2C139BB700EF9D51 /* Preview Assets.xcassets */; };
+		C98A6C4F2D72D3740040BB39 /* CurrencyExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C4E2D72D3740040BB39 /* CurrencyExchangeInfo.swift */; };
+		C98A6C512D7431C50040BB39 /* CurrencyExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A6C502D7431C50040BB39 /* CurrencyExchangeRate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C96A11992C139BB400EF9D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C96A119B2C139BB700EF9D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96A119E2C139BB700EF9D51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C98A6C4E2D72D3740040BB39 /* CurrencyExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchangeInfo.swift; sourceTree = "<group>"; };
+		C98A6C502D7431C50040BB39 /* CurrencyExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchangeRate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				C96A11972C139BB400EF9D51 /* CurrencyColliderApp.swift */,
+				C98A6C4E2D72D3740040BB39 /* CurrencyExchangeInfo.swift */,
+				C98A6C502D7431C50040BB39 /* CurrencyExchangeRate.swift */,
 				C96A11992C139BB400EF9D51 /* ContentView.swift */,
 				C96A119B2C139BB700EF9D51 /* Assets.xcassets */,
 				C96A119D2C139BB700EF9D51 /* Preview Content */,
@@ -139,6 +145,8 @@
 			files = (
 				C96A119A2C139BB400EF9D51 /* ContentView.swift in Sources */,
 				C96A11982C139BB400EF9D51 /* CurrencyColliderApp.swift in Sources */,
+				C98A6C4F2D72D3740040BB39 /* CurrencyExchangeInfo.swift in Sources */,
+				C98A6C512D7431C50040BB39 /* CurrencyExchangeRate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
